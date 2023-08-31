@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #15151D;
+}
+
+header {
+    width: 100%;
+}
+
+.logo_header {
+    width: 4.9375rem;
+    height: 4.56969rem;
+    margin-top: 1.22rem;
+    margin-left: 6.12rem;
+}
+
+.images_character {
+    top: 3.98rem;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.image_rick_and_morty {
+    margin: auto;
+}
+
+.character_left {
+    position: absolute;
+    left: 0;
+}
+
+.character_right {
+    position: absolute;
+    right: 0;
+}
+
+.img_character {
+    padding: 0.87rem;
+    width: 14.375rem;
+    height: 14.375rem;
+    border-radius: 1.8125rem;
+}
+
+.description_character {
+    padding: 0.87rem;
+    color: #6F707D;
+    font-size: 1rem;
+
+}
+
+.button_name {
+    color: #FFF;
+    font-size: 2.36806rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button_name:hover {
+    color: rgb(231, 162, 13);
+
+}
+
+.allCharacter {
+    display: flex;
+    margin: auto;
+    width: 33.25rem;
+    height: 16.125rem;
+    border-radius: 1.8125rem;
+    border: 2px solid #535359;
+    position: relative;
+}
+
+.character_container {
+    width: 69rem;
+    padding-top: 3.71rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.56rem;
+    margin: auto;
+
+
+}
+
+
+.divButtons {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 4.44rem;
+
+}
+
+.divButtonsContent {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+
+.img_back {
+    margin-left: -5rem;
+}
+
+
+.buttons {
+    cursor: pointer;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 2.36806rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    color: #CEEE1D;
+
+}
+
+.chosen_character {
+    margin-top: 4rem;
+}
+
+.heart {
+    position: absolute;
+    top: 13.56rem;
+    right: 1.31rem;
+    cursor: pointer;
+}
+
+.heart>i {
+    font-size: 2rem;
+    color: #ffff;
+}
+
+.ph-fill.ph-heart {
+    color: red;
+}
